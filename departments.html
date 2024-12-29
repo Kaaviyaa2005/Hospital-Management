@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Departments - Apple Hospitals</title>
+    <style>
+   body,
+        html {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+        }
+
+        /* Header Styles */
+        header {
+            background-color: #f8f9fa;
+            padding: 10px 20px;
+            border-bottom: 2px solid #e9ecef;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .logo {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #343a40;
+        }
+
+        .nav-links {
+            list-style: none;
+            display: flex;
+            gap: 15px;
+        }
+
+        .nav-links li a {
+            text-decoration: none;
+            color: #495057;
+            font-weight: bold;
+            padding: 5px 10px;
+            transition: color 0.3s;
+        }
+
+        .nav-links li a:hover {
+            color: #007bff;
+        }
+/* Hero Section */
+.departments-hero {
+    background: linear-gradient(to right, #007bff, #0056b3);
+    color: #fff;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.departments-hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 15px;
+}
+
+.departments-hero p {
+    font-size: 1.2rem;
+    margin: 0;
+}
+
+/* Departments List */
+.departments-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding: 40px 20px;
+    justify-content: center;
+    background-color: #f1f3f5;
+}
+
+.department-item {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 280px;
+    text-align: center;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.department-item h3 {
+    font-size: 1.5rem;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+.department-item p {
+    color: #555;
+    font-size: 1rem;
+    margin: 0;
+}
+
+.department-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer Styles */
+footer {
+    text-align: center;
+    background-color: #343a40;
+    color: #fff;
+    padding: 15px 30px;
+    font-size: 0.9rem;
+    border-top: 2px solid #007bff;
+}
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">Apple Hospitals</div>
+            <ul class="nav-links">
+                <li><a href="hospital.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="departments.html">Departments</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="departments-hero">
+            <h1>Our Departments</h1>
+            <p>Offering specialized medical services through our comprehensive departments.</p>
+        </section>
+
+        <section class="departments-list">
+            <div class="department-item">
+                <h3>Cardiology</h3>
+                <p>Advanced cardiac care services including diagnostics, interventional cardiology, and heart health management.</p>
+            </div>
+            <div class="department-item">
+                <h3>Neurology</h3>
+                <p>Expert care for neurological disorders, including stroke, epilepsy, and neurorehabilitation programs.</p>
+            </div>
+            <div class="department-item">
+                <h3>Orthopedics</h3>
+                <p>Comprehensive care for bone and joint conditions, including surgeries, rehabilitation, and pain management.</p>
+            </div>
+            <div class="department-item">
+                <h3>Obstetrics & Gynecology</h3>
+                <p>Women’s health services, including prenatal care, childbirth, and gynecological surgeries.</p>
+            </div>
+            <div class="department-item">
+                <h3>Oncology</h3>
+                <p>Specialized cancer treatment and support, with a focus on personalized and comprehensive care plans.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Apple Hospitals. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
